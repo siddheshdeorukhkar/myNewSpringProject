@@ -20,10 +20,15 @@ dependencies {
     implementation 'org.springframework.boot:spring-boot-starter-web'
     developmentOnly 'org.springframework.boot:spring-boot-devtools'
     testImplementation 'org.springframework.boot:spring-boot-starter-test'
+    implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
     //
     testImplementation 'org.seleniumhq.selenium:selenium-java'
     testImplementation 'org.seleniumhq.selenium:htmlunit-driver'
     implementation 'org.projectlombok:lombok:1.18.20'
+    implementation 'com.h2database:h2'
+    //implementation 'javax.persistence:javax.persistence:2.2'
+
+
 
 }
 
